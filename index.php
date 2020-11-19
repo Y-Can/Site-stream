@@ -9,14 +9,14 @@
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
     
 <?php include("page/navbar.php");?>
 
 
      <div class="titre">
-        <H1>Nos Animés les plus populaire</H1>
-   </div>
-
+        <H1>Nos Animés les plus populaires</H1>
+    </div>
 
 
      <div class="populaire">
@@ -67,8 +67,9 @@
         </div>
       </div>
 
-     <div class="derniersEpisodes" id="vueDerniersEpisodes">
-    <p>{{message}}</p>
+
+    <div class="derniersEpisodes" id="vueDerniersEpisodes">
+      <p>{{message}}</p>
     <div class="episodes" @mouseover="afficherFleche = true" @mouseleave="afficherFleche = false">
 
       <transition :name="directionSlide"> 
@@ -102,20 +103,17 @@
     </div>
   </div>
 
-
-     
   
-  <?php include("page/footer.php"); ?>
+<?php include("page/footer.php"); ?>
   
     
   
   
-      
-    <script src="js/jquery.min.js" type="text/javascript" ></script>
-    <script src="js/bootstrap.js" type="text/javascript" ></script>
-    <script src="js/script.js" type="text/javascript" ></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-	 <script src="js/app.js"></script>
+  <script src="js/jquery.min.js" type="text/javascript" ></script>
+  <script src="js/bootstrap.js" type="text/javascript" ></script>
+  <script src="js/script.js" type="text/javascript" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="js/app.js"></script>
     
 </body>
 </html>

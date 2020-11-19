@@ -4,7 +4,7 @@ var vm = new Vue({
 	data:{
 		message:'Derniers Episodes',
 		indice: 0,
-		listeEpisodes:['ONE PIECE', "MY HERO ACADEMYA", "ATTAQUE DES TITANTS", "NARUTO SHIPPUDEN"],
+		listeEpisodes:['ONE PIECE', "MY HERO ACADEMYA", "ATTAQUE DES TITANS", "NARUTO SHIPPUDEN"],
 		listeImagesEpisodes:["assets/onePiece.jpg","assets/MyHeroAcademya", "assets/SNK.jpg", "assets/narutoShippuden"],
 
 		titreEpisode:"ONE PIECE",
@@ -14,8 +14,6 @@ var vm = new Vue({
 		afficherFleche: false,
 		imgSlide:true,
 		directionSlide:"",
-
-
 	},
 
 	methods:{

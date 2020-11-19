@@ -197,12 +197,11 @@ nav {
 }
 
 .suivant{
-	color: #EE5A24;
+	color: #ee5a24;
   font-size: 50px;
 	cursor: pointer;
 	position: absolute;
   margin-left: 28%;
-
 }
 
 .precedent{
@@ -320,14 +319,14 @@ nav {
 .container2{
   background-color: #292929;
   height: 15rem;
-  margin-top: 9.3vh;
+
   clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
   width: 400px;
   margin-left: -5rem;
 }
 
 .demon{
- margin-top: 9.3vh;
+
  height: 15rem;
  margin-left: 5%;
 }
@@ -342,4 +341,35 @@ nav {
   text-align: center;
   margin-top: 10%;
   padding: 5px;
+}
+.tout-les-animes{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 10%;
+}
+.style-des-animes{
+  width: 350px;
+  height: 700px ;
+  margin:100px 50px 100px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.style-des-animes h3{
+  text-align: center;
+  font-size: 30px;
+}
+.style-des-animes p{
+  margin-top: 30px;
+  font-size: 18px;
+}
+.toutes-les-images{
+  margin-top: 30px;
+  width: 250px;
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
