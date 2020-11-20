@@ -10,13 +10,23 @@
 </head>
 <body>    
      <?php include("page/navbar.php");?>
+
+     <div class="header" id="header">
+             <img class="demon" src="assets/2.jpg" alt="demon slayer">
+             <div class="container2">
+             <h2>A la une </br> Bientot disponible en VOSTFR</h2>
+             </div>
+     </div>
+
+
+
      <?php $mysqli = new mysqli('localhost', 'root', '1234', 'anime');
      $mysqli -> set_charset("utf8");
      $sql = "SELECT * FROM `listeanime` ORDER BY id ASC";
      $result = $mysqli->query($sql);
 
      $animes = [];
-     $ordreDesAnimes = 0;
+     $orderDesAnimes = 0;
      if ($result->num_rows > 0)
      {
          while($row = $result->fetch_assoc())
@@ -33,20 +43,12 @@
      <?php foreach($animes as $anime): ?>
         <div class="style-des-animes">
             <h3><?= $anime['titre'] ?></h3>
-            <img class="toutes-les-images" src="<?= $anime['image']?>">
+            <a href=""><img class="toutes-les-images" src="<?= $anime['image']?>"></a>
             <p><?= $anime['description'] ?></p>
         </div>
      <?php endforeach; ?>
 </div>
 
-
-
-     <div class="header" id="header">
-             <img class="demon" src="assets/2.jpg" alt="demon slayer">
-             <div class="container2">
-             <h2>A la une </br> Bientot disponible en VOSTFR</h2>
-             </div>
-     </div>
 
 
 

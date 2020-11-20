@@ -11,15 +11,12 @@
   margin: 0;
   padding: 0;
 }
-
-
-
 html {
   scroll-behavior: smooth;
 }
 body{
   font-family: 'Montserrat Alternates', sans-serif;
-  background: rgb(37, 36, 36);
+  background: rgb(26, 26, 26);
  height: 1500px;
 }
 
@@ -81,7 +78,7 @@ nav {
 /************ CONTAINER ***********/
 
 .titre{
-  color: rgb(255, 255, 255);
+  color: rgb(204, 204, 204);
   margin: 9rem auto 0rem 20rem;
 }
 
@@ -158,17 +155,14 @@ nav {
 	height: 505px;
 	margin-bottom: 10%;
 }
-
 .img{
 	margin: 0px;
 	padding: 0px;
   position: absolute;
 }
-
 .img img{
 	height: auto;
 }
-
 .infos{
 	display: flex;
 	flex-direction: column;
@@ -176,9 +170,7 @@ nav {
 	text-align: center;
 	align-items: center;
   margin-left: 70%;
-
 }
-
 .titreEpisode{
 	color: rgb(40,40,40);
 	font-size: 50px;
@@ -186,7 +178,6 @@ nav {
   position: absolute;
   margin-bottom: 12%;
 }
-
 .suivPrev{
 	display: flex;
 	flex-wrap: wrap;
@@ -195,7 +186,6 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 }
-
 .suivant{
 	color: #ee5a24;
   font-size: 50px;
@@ -203,7 +193,6 @@ nav {
 	position: absolute;
   margin-left: 28%;
 }
-
 .precedent{
 	color: #EE5A24;
   font-size: 50px;
@@ -211,7 +200,6 @@ nav {
 	margin-left: -61%;
 	position: absolute;
 }
-
 .bouton-regarder{
 	margin-top: 10%;
 	margin-right: 5%;
@@ -221,9 +209,6 @@ nav {
   background-color: #EE5A24;
   text-decoration: none;
 }
-
-
-
 .bouton-regarder button{
 	padding: 10%;
 	padding-left: 30%;
@@ -232,27 +217,21 @@ nav {
 	border:none;
 	color: #EE5A24;
 }
-
 .slideGauche-enter-active{
   animation: slideInGauche 1s;
 }
-
 .slideGauche-leave-active{
   animation: slideOutGauche 0.9s;
 }
-
 .slideDroite-enter-active{
   animation: slideInDroite 1s;
 }
-
 .slideDroite-leave-active{
   animation: slideOutDroite 0.9s;
 }
-
 .fonduFleche-enter-active{
   animation: apparitionFleche 3s,
 }
-
 .fonduFleche-leave-active{
   animation: disparitionFleche 5s;
 }
@@ -300,12 +279,10 @@ nav {
   margin-top: 5%;
   bottom: 0;
 }
-
-.mention{
+mention{
   list-style-type: none;
   padding: 0px;
 }
-
 .information p{
   color: rgb(20,20,20);
   font-family: 'Anton', sans-serif;
@@ -317,59 +294,75 @@ nav {
 /******************* ANIME ***************/
 
 .container2{
-  background-color: #292929;
+  background-color: rgb(20, 20, 20);
   height: 15rem;
-
   clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
   width: 400px;
   margin-left: -5rem;
 }
-
 .demon{
-
  height: 15rem;
  margin-left: 5%;
 }
 .header{
+  margin-top: 10rem;
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: #292929;
+  background-color: rgb(20, 20, 20);
 }
 .container2 h2{
   margin-left: 40%;
   text-align: center;
   margin-top: 10%;
   padding: 5px;
+  color: white;
 }
 .tout-les-animes{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 4%;
 }
 .style-des-animes{
   width: 350px;
-  height: 700px ;
-  margin:100px 50px 100px 50px;
+  height: 900px ;
+  margin:0px 50px 100px 50px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 .style-des-animes h3{
+  color: white;
   text-align: center;
   font-size: 30px;
+  background-color: rgb(20, 20, 20);
+  border-radius: 40px;
+  height: 100px;
+  padding: center;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
 }
 .style-des-animes p{
+  color: white;
   margin-top: 30px;
   font-size: 18px;
 }
 .toutes-les-images{
+  display: block;
   margin-top: 30px;
   width: 250px;
   height: 350px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 5px;
 }
+.toutes-les-images:hover{
+  width: 400px;
+  height: 500px;
+  transition-duration: 0.3s;
+  transition-delay: 0.4s;
+}
+
+/****************testenavbar***********/
+
