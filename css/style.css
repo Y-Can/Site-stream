@@ -363,6 +363,16 @@ mention{
   transition-duration: 0.3s;
   transition-delay: 0.4s;
 }
+.style-des-animes p:hover{
+  width: 420px;
+  height: auto;
+  font-size: 28px;
+  background-color: rgb(20, 20, 20);
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
 
 /****************testenavbar***********/
 
