@@ -423,7 +423,7 @@ mention{
 }
 
 
-/******************* ANIME ***************/
+/******************* PAGE ANIME ***************/
 
 .container2{
   background-color: rgb(20, 20, 20);
@@ -450,11 +450,16 @@ mention{
   padding: 5px;
   color: white;
 }
+
+/***************STYLE DES ANIMES*************/
+
 .tout-les-animes{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow:row wrap;
   justify-content: center;
+  align-items: center;
   margin-top: 4%;
+
 }
 .style-des-animes{
   width: 350px;

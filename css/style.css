@@ -638,7 +638,7 @@ mention {
   text-align: center;
 }
 
-/******************* ANIME ***************/
+/******************* PAGE ANIME ***************/
 .container2 {
   background-color: #141414;
   height: 15rem;
@@ -674,6 +674,7 @@ mention {
   color: white;
 }
 
+/***************STYLE DES ANIMES*************/
 .tout-les-animes {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -685,6 +686,9 @@ mention {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 4%;
 }
 

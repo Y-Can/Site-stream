@@ -110,7 +110,6 @@
   
   
   <script src="js/jquery.min.js" type="text/javascript" ></script>
-  <script src="js/bootstrap.js" type="text/javascript" ></script>
   <script src="js/script.js" type="text/javascript" ></script>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 	<script src="js/app.js"></script>
